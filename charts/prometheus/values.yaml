@@ -1614,7 +1614,7 @@ serverFiles:
         honor_labels: true
         scrape_interval: 1m
         scheme: https
-        static_configs: https://durableblobdf2.azurewebsites.net/api/Prometheus_Exporter?code=uuApYFX612mNPiQQYfaNVYbHe0ZaG3aXym2rNwpzUc67iRXVLxZJcw==
+        static_configs: 
           - targets: ['durableblobdf2.azurewebsites.net']
         metrics_path: "/api/Prometheus_Exporter?code=uuApYFX612mNPiQQYfaNVYbHe0ZaG3aXym2rNwpzUc67iRXVLxZJcw=="
       # Example Scrape config for pods which should be scraped slower. An useful example
